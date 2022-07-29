@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.player-selection{
+    background-color: wheat;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-selection{
+    background-color: bisque;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-box{
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 10px;   
+    background-color: blanchedalmond;
+}
+
+.score{
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#scoreNum{
+    height: 200px;
+    width: 200px;
+    font-size: 80px;
+    margin: 50px;
+}
+
+#compScoreNum{
+    height: 200px;
+    width: 200px;
+    font-size: 80px;
+    margin: 100px;
+}
